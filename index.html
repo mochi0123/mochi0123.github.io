@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>小琉球住宿整理</title>
+  <style>
+    body { font-family: Arial, "Noto Sans TC", sans-serif; margin: 20px; color:#222; }
+    header { margin-bottom: 16px; }
+    h1 { margin: 0 0 8px 0; font-size: 22px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    table { width:100%; border-collapse: collapse; font-size:14px; }
+    th, td { padding:8px; border:1px solid #ddd; vertical-align:top; text-align:left; }
+    th { background:#f6f6f6; cursor: default; }
+    @media (max-width:900px){ table { font-size:13px; } }
+    .toolbar { display:flex; gap:8px; margin-bottom:12px; }
+    .toolbar input { flex:1; padding:6px 8px; }
+    .toolbar button { padding:6px 10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>小琉球住宿整理（表格）</h1>
+    </header>
+
+    <!-- 可用 hotel.md 的表格 HTML 直接置入此處 -->
+    <table>
+      <thead>
+        <tr>
+          <th>名稱</th>
+          <th>房型</th>
+          <th>價錢（總價 / 人均）</th>
+          <th>衛浴數量</th>
+          <th>Booking 評分</th>
+          <th>Agoda 評分</th>
+          <th>Google Map 評分 /其他评分</th>
+          <th>包含的環境設備</th>
+          <th>隔音</th>
+          <th>制約與風險／備註</th>
+          <th>顧客最低 3 則長評 (≥ 30 字)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://www.southpacificvilla.com/" target="_blank" rel="noopener">南洋渡假海景莊園 (South Pacific Villa)</a></td>
+          <td>庭園六人 Villa (50 坪, 2 房 1 廳)</td>
+          <td>NT$14,200 / 約 NT$2,367／人</td>
+          <td>2 套乾濕分離 (1F + 2F)</td>
+          <td>—</td>
+          <td>—</td>
+          <td>4.3 / 5（HyperAir）</td>
+          <td>庭園、挑高客廳、Wi‑Fi、有線網路、42″ + 32″ 電視、DVD、冰箱、印尼柚木床、早餐 6 客</td>
+          <td>獨棟私密性高；多人聚會可能影響聲音</td>
+          <td>訂房需兩天內支付 30% 定金；僅接受現金；無碼頭接駁（需自費聯絡司機）</td>
+          <td>—（未找到 ≥30 字評語）</td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.airbnb.com.tw/rooms/1143415953076475150" target="_blank" rel="noopener">覓琉 Meet Liu</a></td>
+          <td>6 人整棟 (3 間雙人套房 + 客廳)</td>
+          <td>NT$10,000 / 約 NT$1,667／人（你已 Line 詢價）</td>
+          <td>3 衛浴 (每間套房一間)</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>麻將桌、大電視 (65 吋)、空調、免費停車、膠原蛋白洗浴用品、包棟私密使用</td>
+          <td>包棟私密性佳；若靠近街道夜間噪音可能有影響</td>
+          <td>需確認當天是否可訂整棟；多人變動或加床需協商；Line 價格可能無平台保障</td>
+          <td>—（Airbnb 評論多為短評，難以找到 ≥30 字）</td>
+        </tr>
+
+        <tr>
+          <td><a href="https://liuchiutaiwan.com.tw/bnb/hold208/" target="_blank" rel="noopener">Hold 住 208 — 海景豪華家庭房</a></td>
+          <td>海景豪華家庭房（8 人房，但 6 人入住）</td>
+          <td>房型假日價 NT$10,800（8 人房）；6 人入住約 NT$1,800／人</td>
+          <td>1 衛浴（整房共用）</td>
+          <td>8.7 / 10</td>
+          <td>—</td>
+          <td>—（多讚其海景與設計）</td>
+          <td>海景陽台、空調、Wi‑Fi、露台、可加套裝行程 (機車 + 船票)、設計感強</td>
+          <td>隔音一般；部分住客反映安靜</td>
+          <td>假日/純住宿價可能偏高；加人或少人入住需確認；套裝行程與純住宿價差異大</td>
+          <td>1. 「唯需樓梯上下，較不適宜長輩…」<br>2. 「房間非常乾淨整潔 … 整體環境安靜舒適 …」<br>3. 「櫃檯人員可協助解答…」</td>
+        </tr>
+
+        <!-- 可依需要繼續加入其他列（或把 hotel.md 轉為 HTML 完整貼上） -->
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- 引入上次建立的 index.js（放在同一目錄） -->
+  <script src="./index.js"></script>
+</body>
+</html>
